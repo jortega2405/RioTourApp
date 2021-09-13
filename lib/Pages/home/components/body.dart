@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'categories.dart';
-import 'discount_banner.dart';
+import 'form_banner.dart';
 import 'home_header.dart';
 import 'special_offers.dart';
 

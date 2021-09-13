@@ -1,5 +1,6 @@
 
 
+import 'package:app_travel/Pages/form/form_page.dart';
 import 'package:app_travel/Pages/home/home_screen.dart';
 import 'package:app_travel/Pages/splash/splash_page.dart';
 import 'package:flutter/widgets.dart';
@@ -7,6 +8,7 @@ import 'package:flutter/widgets.dart';
 final Map<String, WidgetBuilder> routes = {
   SplashPage.routeName: (context) => SplashPage(),
   HomePage.routeName: (context) => HomePage(),
+  FormPage.routeName: (context) => FormPage(),
   // SignInScreen.routeName: (context) => SignInScreen(),
   // ForgotPasswordScreen.routeName: (context) => ForgotPasswordScreen(),
   // LoginSuccessScreen.routeName: (context) => LoginSuccessScreen(),
